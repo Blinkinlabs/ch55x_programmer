@@ -1,0 +1,17 @@
+Designator,Quantity,Comment,Description,Manufacturer,PartNumber,Supplier,Supplier Part Number,Pins,Package / Case,Footprint
+
+"C1, C5","2","0.10uF","CAP CER 0.1UF 16V X5R 0402","Murata Electronics North America","GRM155R61C104KA88D","DigiKey","490-5415-1-ND","2","0402 (1005 Metric)","CAPC1005X06L"
+"C2, C3, C4","3","10uF","CAP CER 10UF 10V X5R 0805","Murata Electronics North America","GRM21BR61A106KE19L","DigiKey","490-1709-1-ND","2","0805 (2012 Metric)","CAPC2012X10L"
+"D1","1","LED","LED, 0402, Super Red, 50mcd@20mA, 627~637nm","BrtLed","BL-HUB37A-AV-TRB","LCSC","C165980","2","","BL-Hxx37A-AV-TRB"
+"D2","1","LED","LED, 0402, Super Yellow Green, 35mcd@20mA, 566~576nm","BrtLed","BL-HGE37A-AV-TRB","LCSC","C165979","2","","BL-Hxx37A-AV-TRB"
+"J1, J3","2","A01SB741B1-267","Micro USB B 1A USB 2.0","SHOU HAN","MicroXNJ","LCSC","C404969","11","","A01SB741B1-267"
+"J2","1","C42605","USB A connector, SMD, no tabs","Jing Extension of the Electronic Co.","904-241A2032S10100","LCSC","C42605","6","","C42605"
+"Q1, Q2","2","P_FET","MOSFET P-CH 30V 4A SOT23-3L","Alpha & Omega Semiconductor Inc.","AO3401A","DigiKey","785-1001-2-ND","3","","AO-SOT-23-3L_V"
+"Q3","1","N_FET","MOSFET N-CH 30V 5.7A SOT23-3L","Alpha & Omega Semiconductor Inc.","AO3400A","DigiKey","785-1000-2-ND","3","","AO-SOT-23-3L_V"
+"R1, R2, R3, R4, R5, R7, R9","7","10k","RES SMD 10K OHM 5% 1/10W 0402","Panasonic Electronic Components","ERJ-2GEJ103X","Digikey","P10KJCT-ND","2","0402 (1005 Metric)","ERJ2G(0402)_L"
+"R6, R8, R14","3","DNP","","","DNP","","","2","0402 (1005 Metric)","ERJ2G(0402)_L"
+"R15, R16","2","1k","RES SMD 1K OHM 1% 1/10W 0402","Panasonic Electronic Components","ERJ-2RKF1001X","Digikey","P1.00KLCT-ND","2","0402 (1005 Metric)","ERJ2G(0402)_L"
+"SW1, SW2","2","TS-1185","Tact Switch, 3x4mm, 50mA 160gf 12V","XKB","TS-1185-B-A-B-A","LCSC","C561517","2","","TS-1185"
+"U1","1","FSUSB42MUX","IC USB SWITCH DPDT 10MSOP","","","","","10","","FP-846AP-MFG"
+"U2","1","CH554T","8-bit enhanced USB microcontroller","WCH","CH552T","LCSC","C111367","20","","TSOP65P660X110-20N"
+"U3","1","BL8568CB5ATR33","75dB@(1kHz) 300mA null 3.3V positive 7V SOT23-5 Linear Voltage Regulators","DSTECH","DS8561-33S5","LCSC","C5795637","5","","SOT95P280X130-5N-2"

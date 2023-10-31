@@ -137,12 +137,12 @@ DocumentPath=Project Outputs for ch55x_programmer\Design Rule Check - PCB1.html
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Project
-Value=CH55x Reset Controller
+Name=VersionRevision
+Value=RevB1
 
 [Parameter2]
-Name=VersionRevision
-Value=RevB
+Name=Project
+Value=CH55x Reset Controller
 
 [Configuration1]
 Name=Sources
@@ -722,36 +722,6 @@ OutputName10=Web Review Data
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-OutputType11=Ansoft Neutral
-OutputName11=Ansoft Neutral (AutoPCB)
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-OutputType12=HyperLynx
-OutputName12=HyperLynx (AutoPCB)
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=Orcad v7 Capture Design
-OutputName13=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=P-CAD ASCII
-OutputName14=P-CAD ASCII (AutoPCB)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=P-CAD V16 Schematic Design
-OutputName15=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=SiSoft
-OutputName16=SiSoft (AutoPCB)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
