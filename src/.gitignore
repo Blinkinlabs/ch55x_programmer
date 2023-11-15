@@ -1,0 +1,10 @@
+*.asm
+*.lst
+*.rel
+*.rst
+*.sym
+*.bin
+*.ihx
+*.lk
+*.map
+*.mem
