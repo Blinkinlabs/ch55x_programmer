@@ -1,5 +1,7 @@
 # CH55x Reset Controller
 
+![](DSC_0446.jpg)
+
 Get yours here: https://shop-nl.blinkinlabs.com/products/ch55x-reset-controller
 
 The CH55x Reset Controller is a one-touch solution for putting WCH CH554 and CH552 microcontrollers into bootloader mode. The reset controller performs a simple sequence to achieve this:
