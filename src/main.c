@@ -8,12 +8,12 @@
 #define SFR_P3 0xB0
 
 // Pin map:
-SBIT(ACTIVE_N, SFR_P3, 2);  // ACTIVE_N     P3.2   Status LED output (active low)
+SBIT(OE_N, SFR_P1, 0);      // OE_N         P1.0   Enable USB switch output (active low)
 SBIT(REBOOT_N, SFR_P1, 5);  // REBOOT_N     P1.5   Reboot button input (low when pressed)
 SBIT(POWER_EN, SFR_P1, 6);  // POWER_EN     P1.6   Enable power to DUT (active high)
-SBIT(OE_N, SFR_P1, 0);      // OE_N         P1.0   Enable USB switch output (active low)
-SBIT(BOOT_EN_N, SFR_P3, 1); // BOOT_EN_N    P3.1   Enable DUT boot resistor (active low)
 SBIT(SEL, SFR_P3, 0);       // SEL          P3.0   Select USB switch output (keep low)
+SBIT(BOOT_EN_N, SFR_P3, 1); // BOOT_EN_N    P3.1   Enable DUT boot resistor (active low)
+SBIT(ACTIVE_N, SFR_P3, 2);  // ACTIVE_N     P3.2   Status LED output (active low)
 
 void hw_init() {
     // REBOOT is an input
@@ -31,8 +31,10 @@ void hw_init() {
     // Output mode: Pn_MOD_OC = 0, Pn_DIR_PU = 1
     P1_MOD_OC = P1_MOD_OC & ~((1<<0) | (1<<6));
     P1_DIR_PU = P1_DIR_PU |	((1<<0) | (1<<6));
-    P3_MOD_OC = P3_MOD_OC & ~((1<<0) | (1<<1));
-    P3_DIR_PU = P3_DIR_PU |	((1<<0) | (1<<1));
+    P3_MOD_OC = P3_MOD_OC & ~((1<<2) | (1<<0) | (1<<1));
+    P3_DIR_PU = P3_DIR_PU |	((1<<2) | (1<<0) | (1<<1));
+
+    ACTIVE_N = 0; // Turn on status LED
 }
 
 void reboot_sequence() {
