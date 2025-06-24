@@ -1,0 +1,43 @@
+Altium Designer Pick and Place Locations
+C:\Users\matt\reference\ch55x_programmer\pcb\Project Outputs for ch55x_programmer\Pick Place\Pick Place for PCB1.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       24/06/25
+Time:       18:41
+Revision:   255630e8170529ca6f19b503c7161aab324c2c36
+Variant:    No variations
+Units used: mm
+
+"Designator","Value","Comment","Description","Footprint","Ref-X(mm)","Ref-Y(mm)","Layer","Rotation"
+"C1","100nF","100nF","CAP SMD 100nF 10% 50V X5R 0402","CAPC1005X06L","16.3000","3.1000","TopLayer","90"
+"C5","100nF","100nF","CAP SMD 100nF 10% 50V X5R 0402","CAPC1005X06L","25.2000","21.7000","TopLayer","0"
+"R9","10K","10k","RES SMD 10K OHM 5% 1/16W 0402","ERJ2G(0402)_L","22.7000","13.6000","TopLayer","90"
+"R7","10K","10k","RES SMD 10K OHM 5% 1/16W 0402","ERJ2G(0402)_L","10.8000","9.2000","TopLayer","270"
+"R5","10K","10k","RES SMD 10K OHM 5% 1/16W 0402","ERJ2G(0402)_L","20.2000","15.6000","TopLayer","90"
+"R4","10K","10k","RES SMD 10K OHM 5% 1/16W 0402","ERJ2G(0402)_L","27.0000","7.8000","TopLayer","180"
+"R3","10K","10k","RES SMD 10K OHM 5% 1/16W 0402","ERJ2G(0402)_L","31.3000","15.7000","TopLayer","90"
+"R2","10K","10k","RES SMD 10K OHM 5% 1/16W 0402","ERJ2G(0402)_L","31.3000","22.0000","TopLayer","180"
+"R1","10K","10k","RES SMD 10K OHM 5% 1/16W 0402","ERJ2G(0402)_L","30.9000","7.8000","TopLayer","0"
+"C4","10uF","10uF","CAP SMD 10uF 10% 25V X5R 0805","CAPC2012X10L","8.9000","14.6000","TopLayer","270"
+"C3","10uF","10uF","CAP SMD 10uF 10% 25V X5R 0805","CAPC2012X10L","2.8000","14.4000","TopLayer","270"
+"C2","10uF","10uF","CAP SMD 10uF 10% 25V X5R 0805","CAPC2012X10L","14.5000","3.5000","TopLayer","90"
+"R16","1K","1k","RES SMD 1K OHM 5% 1/16W 0402","ERJ2G(0402)_L","17.0000","19.0000","TopLayer","0"
+"R15","1K","1k","RES SMD 1K OHM 5% 1/16W 0402","ERJ2G(0402)_L","17.0000","20.5000","TopLayer","0"
+"J2","904-241A2032S10100","904-241A2032S10100","USB A connector, SMD, no tabs","C42605","41.0000","15.0000","TopLayer","90"
+"J3","A01SB741B1-267","A01SB741B1-267","Micro USB B type ??????","A01SB741B1-267","4.0000","6.0000","TopLayer","90"
+"J1","A01SB741B1-267","A01SB741B1-267","Micro USB B type ??????","A01SB741B1-267","4.0000","24.0000","TopLayer","90"
+"Q3","AO3400A","AO3400A","MOSFET N-CH 30V 5.7A SOT23-3L","AO-SOT-23-3L_V","27.5000","10.3000","TopLayer","90"
+"Q2","AO3401A","AO3401A","MOSFET P-CH 30V 4A SOT23-3L","AO-SOT-23-3L_V","31.3000","19.7000","TopLayer","270"
+"Q1","AO3401A","AO3401A","MOSFET P-CH 30V 4A SOT23-3L","AO-SOT-23-3L_V","31.5000","10.3000","TopLayer","90"
+"U3","BL8568CB5ATR33","BL8568CB5ATR33","500mA High PSRR, Linear Regulator, w. Output Discharge","SOT95P280X130-5N-2","6.0000","14.0000","TopLayer","0"
+"D2","BL-HGE37A-AV-TRB","BL-HGE37A-AV-TRB","LED, 0402, Super Yellow Green, 35mcd@20mA, 566~576nm","BL-Hxx37A-AV-TRB","14.5000","19.0000","TopLayer","0"
+"D1","BL-HUB37A-AV-TRB","BL-HUB37A-AV-TRB","LED, 0402, Super Red, 50mcd@20mA, 627~637nm","BL-Hxx37A-AV-TRB","14.5000","20.5000","TopLayer","0"
+"U2","CH554T","CH554T","8-bit enhanced USB microcontroller","TSOP65P660X110-20N","21.0000","5.0000","TopLayer","180"
+"R14","DNP","DNP","","ERJ2G(0402)_L","26.1000","2.3000","TopLayer","270"
+"R8","DNP","DNP","","ERJ2G(0402)_L","20.2000","13.7000","TopLayer","90"
+"R6","DNP","DNP","","ERJ2G(0402)_L","22.7000","15.6000","TopLayer","90"
+"U1","FSUSB42MUX","FSUSB42MUX","USB Switch IC 1 Channel 10-MSOP","FP-846AP-MFG","22.5000","24.0000","TopLayer","180"
+"SW2","TS-1185-B-A-B-A","TS-1185-B-A-B-A","Tactile switch, SPST, 3x4mm, 50mA 160gf 12V, no mounting pins","TS-1185","9.9000","4.7000","TopLayer","270"
+"SW1","TS-1185-B-A-B-A","TS-1185-B-A-B-A","Tactile switch, SPST, 3x4mm, 50mA 160gf 12V, no mounting pins","TS-1185","31.6000","3.3000","TopLayer","180"

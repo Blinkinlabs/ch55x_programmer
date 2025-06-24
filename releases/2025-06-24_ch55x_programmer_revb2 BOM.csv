@@ -1,0 +1,16 @@
+Designator,Quantity,Comment,Description,Manufacturer 1,Manufacturer Part Number 1,Supplier 1,Supplier Part Number 1,Supplier 2,Supplier Part Number 2,Pins,Case/Package,Footprint,Library Name
+
+"C1, C5","2","100nF","CAP SMD 100nF 10% 50V X5R 0402","Yageo Group","CC0402KRX5R9BB104","DigiKey","311-3342-2-ND","","","2","0402","CAPC1005X06L","blinkinlabs.DbLib"
+"C2, C3, C4","3","10uF","CAP SMD 10uF 10% 25V X5R 0805","Yageo","CC0805KRX5R8BB106","Digikey","13-CC0805KRX5R8BB106TR-ND","","","2","0805","CAPC2012X10L","blinkinlabs.DbLib"
+"D1","1","BL-HUB37A-AV-TRB","LED, 0402, Super Red, 50mcd@20mA, 627~637nm","BrtLed","BL-HUB37A-AV-TRB","LCSC","C165980","","","2","0402","BL-Hxx37A-AV-TRB","blinkinlabs.DbLib"
+"D2","1","BL-HGE37A-AV-TRB","LED, 0402, Super Yellow Green, 35mcd@20mA, 566~576nm","BrtLed","BL-HGE37A-AV-TRB","LCSC","C165979","","","2","0402","BL-Hxx37A-AV-TRB","blinkinlabs.DbLib"
+"J1, J3","2","A01SB741B1-267","Micro USB B type ??????","Unknown/Generic","Unknown/Generic","","","","","11","SMD","A01SB741B1-267","blinkinlabs.DbLib"
+"J2","1","904-241A2032S10100","USB A connector, SMD, no tabs","Jing Extension of the Electronic","904-241A2032S10100","LCSC","C42605","","","6","SMD","C42605","blinkinlabs.DbLib"
+"Q1, Q2","2","AO3401A","MOSFET P-CH 30V 4A SOT23-3L","Alpha & Omega Semiconductor","AO3401A","DigiKey","785-1001-2-ND","LCSC","C15127","3","SOT-23-3","AO-SOT-23-3L_V","blinkinlabs.DbLib"
+"Q3","1","AO3400A","MOSFET N-CH 30V 5.7A SOT23-3L","Alpha & Omega Semiconductor","AO3400A","Digikey","785-1000-2-ND","LCSC","C20917","3","SOT-23-3","AO-SOT-23-3L_V","blinkinlabs.DbLib"
+"R1, R2, R3, R4, R5, R7, R9","7","10K","RES SMD 10K OHM 5% 1/16W 0402","Yageo Group","RC0402JR-0710KL","Digikey","311-10KJRTR-ND","","","2","0402","ERJ2G(0402)_L","blinkinlabs.DbLib"
+"R15, R16","2","1K","RES SMD 1K OHM 5% 1/16W 0402","Yageo Group","RC0402JR-071KL","Digikey","311-1.0KJRTR-ND","","","2","0402","ERJ2G(0402)_L","blinkinlabs.DbLib"
+"SW1, SW2","2","TS-1185-B-A-B-A","Tactile switch, SPST, 3x4mm, 50mA 160gf 12V, no mounting pins","XKB Connectivity","TS-1185-B-A-B-A","LCSC","C561517","","","2","SMD","TS-1185","blinkinlabs.DbLib"
+"U1","1","FSUSB42MUX","USB Switch IC 1 Channel 10-MSOP","onsemi","FSUSB42MUX","Digikey","FSUSB42MUXCT-ND","LCSC","C11355","10","10-TFSOP, 10-MSOP (0.118"", 3.00mm Width)","FP-846AP-MFG","blinkinlabs.DbLib"
+"U2","1","CH554T","8-bit enhanced USB microcontroller","WCH","CH554T","LCSC","C2928938","","","20","TSSOP-20","TSOP65P660X110-20N","blinkinlabs.DbLib"
+"U3","1","BL8568CB5ATR33","500mA High PSRR, Linear Regulator, w. Output Discharge","Shanghai Belling","BL8568CB5ATR33","LCSC","C243122","","","5","SOT-23-5","SOT95P280X130-5N-2","blinkinlabs.DbLib"
